@@ -1,0 +1,98 @@
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        {{> nav-aside}}
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12">
+                            <h1 class="m-0 text-dark">Videojuegos Disponibles</h1>
+                            <span class="text-muted">Aqui Consultar los datos de los videojuegos</span>
+                        </div><!-- /.col -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card card-primary card-outline">
+                                <div class="card-body">
+                                    <h5 class="card-title w-100 mb-4">Llena el Formulario</h5>
+                                    <form action="" method="">
+                                        <div class="mb-3">
+                                            <label for="nombre" class="form-label">Nombre del Videojuego</label>
+                                            <input type="nombre" name="nombre" class="form-control" id="nombre"
+                                                placeholder="Ingresa El Nombre Del VideoJuego">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="categoria" class="form-label">Categoria del Videojuego</label>
+                                            <select class="form-select" name="categoria">
+                                                <option disabled selected>Seleccione Una Opccion</option>
+                                                <option value="1">Accion</option>
+                                                <option value="2">Arcade</option>
+                                                <option value="3">Mundo Abierto</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="categoria" class="form-label">Empresa Desarrolladora del
+                                                Videojuego </label>
+                                            <select class="form-select" name="categoria">
+                                                <option disabled selected>Seleccione Una Opccion</option>
+                                                <option value="1">EA</option>
+                                                <option value="2">Ubisoft</option>
+                                                <option value="3">Capcom</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="edad" class="form-label">Seleccione Una edad</label>
+                                            <select class="form-select" name="edad" id="edad">
+                                                <option disabled selected>Seleccione Una Opccion</option>
+                                                <option value="1">PEGI 17</option>
+                                                <option value="2">PEGI 10</option>
+                                                <option value="3">PEGI 7</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="consola" class="form-label w-100">Seleccione Una Consola</label>
+                                            <div class="form-check form-check-inline">
+
+                                                <input class="form-check-input ms-2" type="checkbox" id="xbox"
+                                                    value="Xbox">
+                                                <label class="form-check-label" for="xbox">Xbox</label>
+
+                                                <input class="form-check-input ms-2" type="checkbox" id="xbox"
+                                                    value="nitendo">
+                                                <label class="form-check-label" for="nitendo">Nitendo</label>
+
+                                                <input class="form-check-input ms-2" type="checkbox" id="playstation"
+                                                    value="Playstaion">
+                                                <label class="form-check-label" for="playstation">Playstaion</label>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="imagen" class="form-label">Imagen del VideoJuego</label>
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="imagen" name="imagen"
+                                                    aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="precio" class="form-label">Precio del VideoJuego</label>
+                                            <input type="text" name="precio" id="precio" class="form-control">
+                                        </div>
+                                        <input type="submit" class="btn btn-primary" value="Agregar VideoJuego">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

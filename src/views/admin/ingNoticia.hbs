@@ -1,0 +1,55 @@
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        {{> nav-aside}}
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12">
+                            <h1 class="m-0 text-dark">Ingresa Una Nueva Noticias</h1>
+                            <span class="text-muted">Llene el formulario para publicar una nueva noticia</span>
+                        </div><!-- /.col -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card card-primary card-outline">
+                                <div class="card-body">
+                                    <h5 class="card-title w-100 mb-4">Ingresa una Nueva Noticia</h5>
+                                    <form action="" method="">
+                                        <div class="mb-3">
+                                            <label for="nombre" class="form-label">Titulo de la Noticia</label>
+                                            <input type="nombre" name="nombre" class="form-control" id="nombre"
+                                                placeholder="Ingresa El Titulo de la Notica">
+
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="block" class="form-label">Ingrese la Descripcion de La
+                                                Noticia</label>
+                                            <input id="block" type="hidden" name="block">
+                                            <trix-editor input="block" style="min-height: 300px;"></trix-editor>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="imagen" class="form-label">Imagen del VideoJuego</label>
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="imagen" name="imagen"
+                                                    aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                            </div>
+                                        </div>
+                                        <input type="submit" class="btn btn-primary" value="Publicar Noticia">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

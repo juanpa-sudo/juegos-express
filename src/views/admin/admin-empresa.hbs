@@ -1,0 +1,89 @@
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        {{> nav-aside}}
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12">
+                            <h1 class="m-0 text-dark">Panel de Empresa Desarrolladoras de Videojuegos</h1>
+                            <span class="text-muted">Aqui Puedes Consultar las empresas desarroladoras Disponibles para
+                                los
+                                Videojuegos</span>
+                        </div><!-- /.col -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card card-primary card-outline">
+                                <div class="card-body">
+                                    <div class="card-title p-2 b-2 w-100">Tabla De Empresa</div>
+                                    <form action="">
+
+                                        <div class="row mb-3 d-flex justify-content-center">
+                                            <div class="col-md-6 mb-2">
+                                                <input type="text" name="empresa" id="empresa" class="form-control"
+                                                    placeholder="Ingresa Una Nueva EMpresa Desarrolladora">
+                                            </div>
+
+                                            <div class="col-md-2"><input type="submit" class="btn btn-primary"
+                                                    value="Agregar"></div>
+                                        </div>
+                                    </form>
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+
+                                                <th>Empresa</th>
+                                                <th>Aciones</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Ubisoft</td>
+                                                <td>
+                                                    <a href="" class="btn btn-danger me-2">Eliminar</a>
+                                                    <a href="" class="btn btn-info editar" data-e="Ubisoft">Editar</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>EA</td>
+                                                <td>
+                                                    <a href="" class="btn btn-danger me-2">Eliminar</a>
+                                                    <a href="" class="btn btn-info editar" data-e="EA">Editar</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Capcom</td>
+                                                <td>
+                                                    <a href="" class="btn btn-danger me-2">Eliminar</a>
+                                                    <a href="" class="btn btn-info editar" data-e="Capcom">Editar</a>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+
+                                                <th>Nombre</th>
+                                                <th>Fecha</th>
+
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,79 @@
+body {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(70, 70, 70, 0.4), rgba(53, 53, 53, 0.571)), url('/img/hero.jpg');
+    height: 450px;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.categorias {
+    color: #333;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #0d6efd !important;
+    display: inline-block;
+    padding-bottom: .5rem;
+    padding-right: 2rem;
+}
+
+.correo {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:700px) {
+    .correo {
+        width: auto;
+    }
+    .rounded-pill {
+        border-radius: 0px !important;
+    }
+}
+
+.contenedor-correo {
+    background-image: linear-gradient(to bottom, rgba(70, 70, 70, 0.4), rgba(53, 53, 53, 0.571)), url('/img/correo.jpg');
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.correo>.form-control {
+    width: 90%;
+    background-color: rgba(51, 51, 51, 0.431);
+}
+
+.icono {
+    width: 1.2rem;
+}
+
+.derechos {
+    background-color: rgba(0, 0, 255, 0.26);
+}
+
+footer {
+    min-height: 9rem;
+}
+
+.login {
+    width: 70%;
+}
+
+.card-footer {
+    background-image: url('/img/correo.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 4rem;
+}
+
+.barra-lateral {
+    min-width: 300px;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.consolas {
+    list-style: none;
+}

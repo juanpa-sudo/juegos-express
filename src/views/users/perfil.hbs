@@ -1,0 +1,85 @@
+{{> navegacion}}
+
+<div class="container">
+    <div class="row my-5 card p-4">
+        <h1 class="text-center">Mis Datos</h1>
+        <div class="col-12 d-flex flex-column align-items-center">
+            <img src="/img/capitan-america.png" alt="" class="border rounded-circle py-2 my-2">
+            <h2 class="text-center h1 text-primary">Usuario 1</h2>
+        </div>
+        <h3 class="text-center my-5">Juegos Comprados</h3>
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre Del Videojuego</th>
+                    <th>Categoria</th>
+                    <th>Empresa Desarrolladora</th>
+                    <th>Fecha De Lanzamineto</th>
+                    <th>Precio</th>
+                    <th>Consola</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Farc Cry 5</td>
+                    <td>
+                        Mundo Abierto
+                    </td>
+
+                    <td>Ubisoft</td>
+                    <td>25 de Marzo del 2001</td>
+                    <td>
+                        80,000
+                    </td>
+                    <td>
+                        PlayStation 4
+                    </td>
+                    <td>
+                        <img src="/img/Videojuegos/farcry.jpg" alt="" width="500px">
+                    </td>
+
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Nombre Del Videojuego</th>
+                    <th>Categoria</th>
+                    <th>Empresa Desarrolladora</th>
+                    <th>Fecha De Lanzamineto</th>
+                    <th>Precio</th>
+                    <th>Consola</th>
+                    <th>Imagen</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h4 class="text-center mt-3 p-3">Verifica Tu Informacio o Actualizala</h4>
+        <form action="">
+            <div class="row">
+                <div class="mb-3 col-md-6">
+                    <label for="nombre" class="form-label">Tu Nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="form-control" value="Usuario 1">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="correo" class="form-label">Tu Correo</label>
+                    <input type="email" name="correo" id="correo" class="form-control" value="correo@correo">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="number" class="form-label">Tu Telefono</label>
+                    <input type="number" min="0" name="number" id="number" class="form-control" value="3002323">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="tarjeta" class="form-label">Tarjeta De Credito</label>
+                    <input type="number" min="0" name="tarjeta" id="tarjeta" class="form-control" value="24675435">
+                </div>
+                <input type="submit" class="btn btn-primary" value="Actualizar">
+                <a href="#" class="btn btn-danger">Eliminar Cuenta</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+{{> footer}}

@@ -1,0 +1,29 @@
+{{> navegacion}}
+<h1 class="text-center py-4">
+    Los Mejores Videjuegos.onlinne
+</h1>
+<div class="hero d-flex justify-content-center  align-items-end">
+    <h2 class="text-white text-uppercase fw-bold mb-5">
+        Difrusta de los ultimos videojuegos del Mercado
+    </h2>
+</div>
+
+<main>
+    <div class="container">
+
+        <h2 class="categorias mb-2 mt-4">Ultimos Videojuegos</h2>
+        {{> card-videojuegos}}
+        <h2 class="categorias mb-2">Arcade</h2>
+        {{> card-videojuegos}}
+        <h2 class="categorias mb-2">Accion</h2>
+        {{> card-videojuegos}}
+    </div>
+</main>
+<section class="container mt-5 d-flex flex-column">
+    <h2 class="text-center ">Ultimas Noticias</h2>
+    {{> noticias-videojuegos}}
+    <a href="/home/noticias" class="btn btn-primary mt-3">Ver Todas Las Noticias</a>
+</section>
+{{> correo}}
+
+{{> footer}}

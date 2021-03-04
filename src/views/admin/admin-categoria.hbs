@@ -1,0 +1,88 @@
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        {{> nav-aside}}
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12">
+                            <h1 class="m-0 text-dark">Categoria Disponibles</h1>
+                            <span class="text-muted">Aqui Puedes Consultar las Categorias de los Videojuegos</span>
+                        </div><!-- /.col -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card card-primary card-outline">
+                                <div class="card-body">
+                                    <div class="card-title p-2 b-2 w-100">Tabla De Categoria</div>
+                                    <form action="">
+
+                                        <div class="row mb-3 d-flex justify-content-center">
+                                            <div class="col-md-6 mb-2">
+                                                <input type="text" name="categoria" id="consola" class="form-control"
+                                                    placeholder="Ingresa una nueva Categoria">
+                                            </div>
+
+                                            <div class="col-md-2"><input type="submit" class="btn btn-primary"
+                                                    value="Agregar"></div>
+                                        </div>
+                                    </form>
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+
+                                                <th>categoria</th>
+                                                <th>Aciones</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Accion</td>
+                                                <td>
+                                                    <a href="" class="btn btn-danger me-2">Eliminar</a>
+                                                    <a href="" class="btn btn-info editar" data-e="Accion">Editar</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Arcade</td>
+                                                <td>
+                                                    <a href="" class="btn btn-danger me-2">Eliminar</a>
+                                                    <a href="" class="btn btn-info editar" data-e="Arcade">Editar</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mundo Abierto</td>
+                                                <td>
+                                                    <a href="" class="btn btn-danger me-2">Eliminar</a>
+                                                    <a href="" class="btn btn-info editar"
+                                                        data-e="Mundo Abierto">Editar</a>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+
+                                                <th>categoria</th>
+                                                <th>Aciones</th>
+
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

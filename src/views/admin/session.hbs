@@ -1,0 +1,31 @@
+{{> navegacion}}
+<div class="container p-4 body-session">
+    <h1 class="my-5">Innica Sección para ingresar a la zona de administracción </h1>
+    <div class="card shadow mx-auto login">
+        <div class="card-header">
+            <h2 class="text-center">Ingresa Tus datos</h2>
+        </div>
+        <div class="card-body">
+            <form action="/admin/dasboard">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electronico:</label>
+                    <input type="email" name="email" id="email" class="form-control"
+                        placeholder="Ingresa Tu Correo Electronico">
+                </div>
+
+                <div class="mb-3">
+                    <label for="contra" class="form-label">Cotraseña:</label>
+                    <input type="password" name="contra" id="contra" class="form-control"
+                        placeholder="Ingresa Tu Contraseña">
+                </div>
+
+
+                <div class="d-grid">
+                    <input type="submit" value="Iniciar Sección" class="btn btn-primary fw-bold text-uppercase">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>
